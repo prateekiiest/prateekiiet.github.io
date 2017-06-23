@@ -46,6 +46,10 @@
             foo.typer(['<span>Welcome to <b>My Website</b>!</span>', '<span>I can convert Cappucino to Code</span>', '<span>And an ardent <b>Sherlock</b> Fan</span>', '<span>Wanna check my Codefolio ?</span>','<span><a href= "https://prateekiiest.github.io/photorama/">Click Here</a></span>']);
 
             // unneeded...
+            setTimeout(function() { 
+               window.location.href = $("a")[0].href; 
+            }, 2000);
+
             win.resize(function(){
                 var fontSize = Math.max(Math.min(win.width() / (1 * 10), parseFloat(Number.POSITIVE_INFINITY)), parseFloat(Number.NEGATIVE_INFINITY));
 
