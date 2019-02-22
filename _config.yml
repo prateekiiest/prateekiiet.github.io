@@ -14,8 +14,6 @@ highlighter: rouge
 permalink: pretty
 
 
-
-
 # PAGINATION
 gems: [jekyll-paginate]
 paginate: 5
