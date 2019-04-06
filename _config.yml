@@ -1,7 +1,7 @@
 # Site settings
 title: HOME
 
-url: "http://prateekiiest.github.io"
+url: "https://prateekchanda.me/"
 
 # Server
 destination:      	 ./_site
